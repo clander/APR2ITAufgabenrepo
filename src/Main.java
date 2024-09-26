@@ -13,10 +13,10 @@ public class Main {
         bruchEinfach2.nenner = 22;
         bruchEinfach2.ausgeben();
 
-        System.out.println("Hello world!");
-        System.out.println("Hello world!");
-        Bruch bruch = new Bruch(2,4);
-        Bruch bruch2 = new Bruch(6,4);
+        var brucheinfach3 = new BruchEinfach();
+        brucheinfach3.zaehler = 4;
+        brucheinfach3.zaehler = 6;
+        brucheinfach3.ausgeben();
 
     }
 }
