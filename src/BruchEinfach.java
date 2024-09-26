@@ -4,6 +4,6 @@ public class BruchEinfach {
 
     void ausgeben()
     {
-        System.out.println("Bruch: " + zaehler + "/" + nenner);
+        System.out.println("Bruch: " + this.zaehler + "/" + nenner);
     }
 }
