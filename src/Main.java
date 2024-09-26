@@ -6,6 +6,11 @@ public class Main {
         bruchEinfach.nenner = 0;
         bruchEinfach.ausgeben();
 
+        BruchEinfach bruchEinfach2 = new BruchEinfach();
+        bruchEinfach2.zaehler = 4;
+        bruchEinfach2.nenner = 3;
+        bruchEinfach2.ausgeben();
+
 
         System.out.println("Hello world!");
         System.out.println("Hello world!");
