@@ -4,7 +4,7 @@ public class Main {
         BruchEinfach bruchEinfach = new BruchEinfach();
         bruchEinfach.zaehler = 24;
         bruchEinfach.nenner = 0;
-
+        bruchEinfach.ausgeben();
 
 
         System.out.println("Hello world!");
