@@ -14,8 +14,10 @@ public class Main {
         bruchEinfach2.ausgeben();
 
         var brucheinfach3 = new BruchEinfach();
-        brucheinfach3.zaehler = 4;
-        brucheinfach3.nenner = 6;
+        brucheinfach3.zaehler = 10;
+        brucheinfach3.nenner = 5;
+        brucheinfach3.ausgeben();
+        brucheinfach3.kuerzen();
         brucheinfach3.ausgeben();
 
     }
