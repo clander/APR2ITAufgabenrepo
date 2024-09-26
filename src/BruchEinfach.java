@@ -6,6 +6,12 @@ public class BruchEinfach {
     {
         System.out.println("Bruch: " + this.zaehler + "/" + nenner);
     }
+
+    void gekuerztAusgeben()
+    {
+        kuerzen();
+        ausgeben();
+    }
     void kuerzen()
     {
         var m = Math.abs(zaehler);
