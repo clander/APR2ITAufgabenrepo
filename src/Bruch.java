@@ -3,6 +3,7 @@ public class Bruch {
     private int nenner;
 
     public Bruch(int zaehler, int nenner) {
+
         this.zaehler = zaehler;
         this.nenner = nenner;
     }
@@ -25,7 +26,7 @@ public class Bruch {
 
     public int getNenner()
     {
-        return this.nenner;
+        return nenner;
     }
 
 }
