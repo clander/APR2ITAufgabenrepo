@@ -29,6 +29,22 @@ public class Main {
         //brucheinfach3.kuerzen();
         //brucheinfach3.ausgeben();
         brucheinfach3.gekuerztAusgeben();
-        
+
+        System.out.println("***** Bruch 4 - Multiplikation ******");
+        BruchEinfach bruchEinfach4 = new BruchEinfach();
+        bruchEinfach4.zaehler = 5;
+        bruchEinfach4.nenner = 6;
+        System.out.println("Bruch 4 vor Multiplikation:");
+        bruchEinfach4.ausgeben();
+        BruchEinfach bruchEinfach5 = new BruchEinfach();
+        bruchEinfach5.zaehler = 3;
+        bruchEinfach5.zaehler = 4;
+        System.out.println("Bruch 5 vor Multiplikation:");
+        bruchEinfach5.ausgeben();
+        bruchEinfach5.multiplizieren(bruchEinfach4);
+        System.out.println("Bruch 4 nach Multiplikation:");
+        bruchEinfach4.ausgeben();
+        System.out.println("Bruch 5 nach Multiplikation:");
+        bruchEinfach5.ausgeben();
     }
 }
