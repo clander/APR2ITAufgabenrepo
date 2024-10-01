@@ -2,9 +2,15 @@ public class BruchEinfach {
     int zaehler;
     int nenner;
 
-    void ausgeben()
+    public void ausgeben()
     {
         System.out.println("Bruch: " + this.zaehler + "/" + nenner);
+    }
+
+    void multiplizieren(BruchEinfach b)
+    {
+        zaehler = zaehler * b.zaehler;
+        nenner = nenner + b.nenner;
     }
 
     void gekuerztAusgeben()
@@ -30,6 +36,7 @@ public class BruchEinfach {
     void erweitern(int zahl)
     {
         zaehler = zaehler * zahl;
+        //zaehler *= zahl;
         nenner = nenner * zahl;
     }
 }
