@@ -16,6 +16,10 @@ public class Main {
         bruchEinfach2.ausgeben();
         bruchEinfach2.kuerzen();
         bruchEinfach2.ausgeben();
+        bruchEinfach2.erweitern(3);
+        bruchEinfach2.ausgeben();
+        bruchEinfach2.kuerzen();
+        bruchEinfach2.ausgeben();
 
         System.out.println("***** Bruch 3 ******");
         var brucheinfach3 = new BruchEinfach();

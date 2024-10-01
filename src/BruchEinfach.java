@@ -26,4 +26,10 @@ public class BruchEinfach {
         zaehler = zaehler / n;
         nenner = nenner / n;
     }
+
+    void erweitern(int zahl)
+    {
+        zaehler = zaehler * zahl;
+        nenner = nenner * zahl;
+    }
 }
