@@ -25,7 +25,6 @@ public class Main {
         //brucheinfach3.kuerzen();
         //brucheinfach3.ausgeben();
         brucheinfach3.gekuerztAusgeben();
-
-
+        
     }
 }
