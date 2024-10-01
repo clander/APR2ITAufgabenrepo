@@ -1,6 +1,6 @@
 public class BruchEinfach {
-    int zaehler;
-    int nenner;
+     int zaehler;
+     int nenner;
 
     public void ausgeben()
     {
@@ -11,6 +11,8 @@ public class BruchEinfach {
     {
         zaehler = zaehler * b.zaehler;
         nenner = nenner + b.nenner;
+       // b.nenner = 2; //Was passiert hier?
+       // b.zaehler = 4;
     }
 
     void gekuerztAusgeben()

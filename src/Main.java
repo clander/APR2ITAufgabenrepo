@@ -38,7 +38,7 @@ public class Main {
         bruchEinfach4.ausgeben();
         BruchEinfach bruchEinfach5 = new BruchEinfach();
         bruchEinfach5.zaehler = 3;
-        bruchEinfach5.zaehler = 4;
+        bruchEinfach5.nenner = 4;
         System.out.println("Bruch 5 vor Multiplikation:");
         bruchEinfach5.ausgeben();
         bruchEinfach5.multiplizieren(bruchEinfach4);
