@@ -60,5 +60,12 @@ public class Main {
         double d = bruch5.dezimalwert(); // erwartet: 0,75
         System.out.println("Dezimalwert: " + d);
 
+        System.out.println("***** Signum-Methode testen *****");
+        bruch5.ausgeben();
+        System.out.println("Signum: " + bruch5.signum());
+        bruch5.setze(-5,4);
+        System.out.println("Signum: " + bruch5.signum());
+        bruch5.setze(0,4);
+        System.out.println("Signum: " + bruch5.signum());
     }
 }
