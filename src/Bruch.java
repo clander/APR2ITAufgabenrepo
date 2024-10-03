@@ -15,6 +15,18 @@ public class Bruch {
        // b.zaehler = 4;
     }
 
+    void setze(int zaehler)
+    {
+        this.zaehler = zaehler;
+        this.nenner = 1;
+    }
+
+    void setze(int zaehler, int nenner)
+    {
+        this.zaehler = zaehler;
+        this.nenner = nenner;
+    }
+
     void gekuerztAusgeben()
     {
         kuerzen();
