@@ -74,5 +74,7 @@ public class Main {
         System.out.println("**** Konstruktoren *****");
         Bruch bruch6 = new Bruch();
         bruch6.ausgeben(); //erwartet 0/1
+        Bruch bruch7 = new Bruch(5,6);
+        bruch7.ausgeben();//erwatet 5/6
     }
 }

@@ -10,8 +10,8 @@ public class Bruch {
 
      Bruch(int zaehler, int nenner)
      {
-         zaehler = zaehler;
-         nenner = nenner;
+         this.zaehler = zaehler;
+         this.nenner = nenner;
      }
 
     public void ausgeben()
