@@ -46,5 +46,12 @@ public class Main {
         bruch4.ausgeben();
         System.out.println("Bruch 5 nach Multiplikation:");
         bruchEinfach5.ausgeben();
+
+        System.out.println("**** Überladen testen *****");
+        bruchEinfach5.ausgeben();
+        bruchEinfach5.setze(5); //überladene Methode
+        bruchEinfach5.ausgeben(); //erwartet: 5/1
+        bruchEinfach5.setze(5,4); //überladene Methode
+        bruchEinfach5.ausgeben(); //erwartet: 5/4
     }
 }
