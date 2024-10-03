@@ -53,5 +53,12 @@ public class Main {
         bruch5.ausgeben(); //erwartet: 5/1
         bruch5.setze(5,4); //überladene Methode
         bruch5.ausgeben(); //erwartet: 5/4
+
+        System.out.println("**** Dezimalwert-Methode testen *****");
+
+        bruch5.ausgeben();
+        double d = bruch5.dezimalwert();
+        System.out.println("Dezimalwert: " + d);
+
     }
 }
