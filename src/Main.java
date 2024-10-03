@@ -22,13 +22,13 @@ public class Main {
         bruch2.ausgeben();
 
         System.out.println("***** Bruch 3 ******");
-        var brucheinfach3 = new Bruch();
-        brucheinfach3.zaehler = 10;
-        brucheinfach3.nenner = 5;
+        var bruch3 = new Bruch();
+        bruch3.zaehler = 10;
+        bruch3.nenner = 5;
         //brucheinfach3.ausgeben();
         //brucheinfach3.kuerzen();
         //brucheinfach3.ausgeben();
-        brucheinfach3.gekuerztAusgeben();
+        bruch3.gekuerztAusgeben();
 
         System.out.println("***** Bruch 4 - Multiplikation ******");
         Bruch bruch4 = new Bruch();
@@ -36,22 +36,22 @@ public class Main {
         bruch4.nenner = 6;
         System.out.println("Bruch 4 vor Multiplikation:");
         bruch4.ausgeben();
-        Bruch bruchEinfach5 = new Bruch();
-        bruchEinfach5.zaehler = 3;
-        bruchEinfach5.nenner = 4;
+        Bruch bruch5 = new Bruch();
+        bruch5.zaehler = 3;
+        bruch5.nenner = 4;
         System.out.println("Bruch 5 vor Multiplikation:");
-        bruchEinfach5.ausgeben();
-        bruchEinfach5.multiplizieren(bruch4);
+        bruch5.ausgeben();
+        bruch5.multiplizieren(bruch4);
         System.out.println("Bruch 4 nach Multiplikation:");
         bruch4.ausgeben();
         System.out.println("Bruch 5 nach Multiplikation:");
-        bruchEinfach5.ausgeben();
+        bruch5.ausgeben();
 
         System.out.println("**** Überladen testen *****");
-        bruchEinfach5.ausgeben();
-        bruchEinfach5.setze(5); //überladene Methode
-        bruchEinfach5.ausgeben(); //erwartet: 5/1
-        bruchEinfach5.setze(5,4); //überladene Methode
-        bruchEinfach5.ausgeben(); //erwartet: 5/4
+        bruch5.ausgeben();
+        bruch5.setze(5); //überladene Methode
+        bruch5.ausgeben(); //erwartet: 5/1
+        bruch5.setze(5,4); //überladene Methode
+        bruch5.ausgeben(); //erwartet: 5/4
     }
 }
