@@ -2,6 +2,12 @@ public class Bruch {
      int zaehler;
      int nenner;
 
+     Bruch()
+     {
+         zaehler = 0;
+         nenner = 1;
+     }
+
     public void ausgeben()
     {
         System.out.println("Bruch: " + this.zaehler + "/" + nenner);
