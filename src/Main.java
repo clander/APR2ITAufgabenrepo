@@ -70,5 +70,9 @@ public class Main {
         bruch5.setze(0,4);
         bruch5.ausgeben();
         System.out.println("Signum: " + bruch5.signum()); //erwartet:0
+
+        System.out.println("**** Konstruktoren *****");
+        Bruch bruch6 = new Bruch();
+        bruch6.ausgeben(); //erwartet 0/1
     }
 }

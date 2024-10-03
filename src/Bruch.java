@@ -8,6 +8,12 @@ public class Bruch {
          nenner = 1;
      }
 
+     Bruch(int zaehler, int nenner)
+     {
+         zaehler = zaehler;
+         nenner = nenner;
+     }
+
     public void ausgeben()
     {
         System.out.println("Bruch: " + this.zaehler + "/" + nenner);
