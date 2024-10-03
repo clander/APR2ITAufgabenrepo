@@ -63,12 +63,12 @@ public class Main {
         System.out.println("***** Signum-Methode testen *****");
         bruch5.setze(5,4);
         bruch5.ausgeben();
-        System.out.println("Signum: " + bruch5.signum());
+        System.out.println("Signum: " + bruch5.signum()); //erwartet:1
         bruch5.setze(-5,4);
         bruch5.ausgeben();
-        System.out.println("Signum: " + bruch5.signum());
+        System.out.println("Signum: " + bruch5.signum()); //erwartet:-1
         bruch5.setze(0,4);
         bruch5.ausgeben();
-        System.out.println("Signum: " + bruch5.signum());
+        System.out.println("Signum: " + bruch5.signum()); //erwartet:0
     }
 }
