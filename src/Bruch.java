@@ -50,7 +50,11 @@ public class Bruch {
     void erweitern(int zahl)
     {
         zaehler = zaehler * zahl;
-        //zaehler *= zahl;
         nenner = nenner * zahl;
+    }
+
+    double dezimalwert()
+    {
+        return this.zaehler/this.nenner;
     }
 }
