@@ -53,8 +53,22 @@ public class Bruch {
         nenner = nenner * zahl;
     }
 
+    int signum()
+    {
+        if(dezimalwert()>0)
+        {
+            return 1;
+        } else if(dezimalwert()<0)
+        {
+            return -1;
+        } else
+        {
+            return 0;
+        }
+    }
+
     double dezimalwert()
     {
-        return this.zaehler/this.nenner;
+        return (double)this.zaehler/(double)this.nenner;//jetzt Division mit Komma (Gleitkomma-Division)
     }
 }

@@ -55,9 +55,9 @@ public class Main {
         bruch5.ausgeben(); //erwartet: 5/4
 
         System.out.println("**** Dezimalwert-Methode testen *****");
-
+        bruch5.setze(3,4);
         bruch5.ausgeben();
-        double d = bruch5.dezimalwert();
+        double d = bruch5.dezimalwert(); // erwartet: 0,75
         System.out.println("Dezimalwert: " + d);
 
     }
