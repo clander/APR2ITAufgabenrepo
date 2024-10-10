@@ -1,3 +1,5 @@
+package K5;
+
 public class Bruch {
      int zaehler;
      int nenner;
@@ -16,7 +18,7 @@ public class Bruch {
 
     public void ausgeben()
     {
-        System.out.println("Bruch: " + this.zaehler + "/" + nenner);
+        System.out.println("K5.Bruch: " + this.zaehler + "/" + nenner);
     }
 
     void multiplizieren(Bruch b)
