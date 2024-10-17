@@ -9,5 +9,10 @@ public class Main {
         System.out.println(teilMitRundung.getRadius());//erwartet 4
         teilMitRundung.radiusVergroessernUm(4);
         System.out.println(teilMitRundung.getRadius());//erwartet 8
+
+        Kreis kreis1 = new Kreis(4);
+        System.out.println(kreis1.getRadius());//erwartet 4
+        System.out.println(kreis1.getFlaeche());
+        System.out.println(kreis1.getUmfang());
     }
 }

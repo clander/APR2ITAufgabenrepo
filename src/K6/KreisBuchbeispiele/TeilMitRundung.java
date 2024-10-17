@@ -2,7 +2,7 @@ package K6.KreisBuchbeispiele;
 
 public class TeilMitRundung {
 
-    double radius;
+    private double radius;
     TeilMitRundung()
     {
         radius = 1;
