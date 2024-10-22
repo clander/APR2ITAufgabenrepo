@@ -1,4 +1,4 @@
-package K5;
+package K6.BruchEqualsDemo;
 
 public class Bruch {
      int zaehler;
@@ -86,5 +86,14 @@ public class Bruch {
         return (double)this.zaehler/(double)this.nenner;//jetzt Division mit Komma (Gleitkomma-Division)
     }
 
-
+    boolean equals(Bruch bruchZumVergleich)
+    {
+        if(bruchZumVergleich==null || bruchZumVergleich.getClass()!=this.getClass())
+        {
+            return false;
+        } else
+        {
+            return this.zaehler == bruchZumVergleich.zaehler && this.nenner == bruchZumVergleich.nenner;
+        }
+    }
 }
