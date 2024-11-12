@@ -26,5 +26,14 @@ public class Main {
         System.out.println(i1+5);
         System.out.println(i1+""+5);
 
+        StringBuilder sb = new StringBuilder("Hallo Welt");
+        sb.append("23");
+        System.out.println(sb);
+        sb.insert(4,"Neu");
+        System.out.println(sb);
+        sb.delete(3,5);
+        System.out.println(sb);
+
+
     }
 }
