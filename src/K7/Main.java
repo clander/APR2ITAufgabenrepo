@@ -34,6 +34,11 @@ public class Main {
         sb.delete(3,5);
         System.out.println(sb);
 
+        //Substring
+        String sub = "Hallo Welt";
+        System.out.println(sub.substring(5));
+        System.out.println(sub.substring(5, 7));
+
 
     }
 }
