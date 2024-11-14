@@ -26,6 +26,7 @@ public class Main {
         System.out.println(i1+5);
         System.out.println(i1+""+5);
 
+        //String Builder
         StringBuilder sb = new StringBuilder("Hallo Welt");
         sb.append("23");
         System.out.println(sb);
@@ -33,6 +34,10 @@ public class Main {
         System.out.println(sb);
         sb.delete(3,5);
         System.out.println(sb);
+        sb.deleteCharAt(4);
+        System.out.println(sb);
+        String ergebnis = sb.toString();
+        System.out.println(ergebnis);
 
         //Substring
         String sub = "Hallo Welt";
