@@ -1,8 +1,12 @@
 package K7;
 
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
+import java.util.Scanner;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         String s1 = "a";
         String s2 = "b";
         String s3 = "c";
@@ -43,6 +47,41 @@ public class Main {
         String sub = "Hallo Welt";
         System.out.println(sub.substring(5));
         System.out.println(sub.substring(5, 7));
+
+        //Wrapper-Klassen
+        Integer i2 = Integer.valueOf(1);
+        System.out.println(i2);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Bitte eine Zahl eingeben: ");
+        String benutzerEingabe = scan.nextLine();
+        int eingabeZahl = Integer.parseInt(benutzerEingabe);
+        int eingabeZahl2 = Integer.valueOf(benutzerEingabe);//Autounboxing
+        int eingabeZahl3 = i2; //Autounboxing
+        Integer i3 = 2; //Autoboxing;
+        int i4 = i3.intValue();
+
+        //Zeit
+        long t1 = System.currentTimeMillis();
+        //Thread.sleep(2000);
+        int c1 = 0;
+        while(c1 < 100000000)
+        {
+            c1++;
+        }
+        long t2 = System.currentTimeMillis();
+        System.out.println("Zeit 1: " + t1);
+        System.out.println("Zeit 2: " + t2);
+        System.out.println("Differenz im ms: " + (t2-t1));
+
+        Instant inst1 = Instant.EPOCH;
+        System.out.println(inst1);
+        System.out.println(Instant.MAX);
+        System.out.println(Instant.MIN);
+        System.out.println(Instant.now());
+        Instant inst2 = Instant.parse("2024-11-14T11:12:41.778654Z");
+        System.out.println(inst2);
+        System.out.println(inst2.plus(1, ChronoUnit.HOURS));
+
 
 
     }
