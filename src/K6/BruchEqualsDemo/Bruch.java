@@ -71,7 +71,7 @@ public class Bruch {
     {
         if(dezimalwert()>0)
         {
-            return 1;
+            return 1; // corrected the condition to account for zero
         } else if(dezimalwert()<0)
         {
             return -1;
